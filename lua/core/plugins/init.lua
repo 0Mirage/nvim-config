@@ -1,0 +1,18 @@
+if pcall(require, "packer") then
+	require "core.plugins.alpha"
+	require "core.plugins.autopairs"
+	require "core.plugins.telescope"
+	require "core.plugins.wilder"
+	require "core.plugins.better-escape"
+	require "core.plugins.catppuccin"
+	require "core.plugins.smoothCursor"
+	require "core.plugins.neo-tree"
+	-- require "core.plugins.bufferline"
+	require "core.plugins.barbar"
+	require "core.plugins.lualine"
+	require "core.plugins.colorizer"
+	require "core.plugins.completions"
+	require "core.plugins.treesitter"
+	require "core.plugins.toggleterm"
+	require "core.plugins.empty"
+end
