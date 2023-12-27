@@ -11,6 +11,7 @@ barbar.setup {
 			custom_colors = true,
 		}
 	},
+	auto_hide = true,
 	maximum_length = 15,
 	minimum_length = 15,
 	sidebar_filetypes = {
@@ -18,15 +19,49 @@ barbar.setup {
 	}
 }
 
-vim.cmd [[hi BufferCurrent guibg=default]]
-vim.cmd [[hi BufferCurrent guifg=#8aadf4]]
-vim.cmd [[hi BufferCurrentIcon guifg=#8aadf4]]
-vim.cmd [[hi BufferAlternate guibg=default]]
-vim.cmd [[hi BufferAlternate guifg=#8087a2]]
-vim.cmd [[hi BufferAlternateIcon guifg=#8087a2]]
-vim.cmd [[hi BufferVisible guibg=default]]
-vim.cmd [[hi BufferVisible guifg=#8087a2]]
-vim.cmd [[hi BufferVisibleIcon guifg=#8087a2]]
-vim.cmd [[hi BufferInactive guibg=default]]
-vim.cmd [[hi BufferInactive guifg=#8087a2]]
-vim.cmd [[hi BufferInactiveIcon guifg=#8087a2]]
+local currentColor = "#8aadf4"
+local normalColor = "#8087a2"
+
+local status = {
+	"STATUS",
+	"Alternate",
+	"Current",
+	"Inactive",
+	"Visible"
+}
+
+local parts = {
+	"ADDED",
+	"CHANGED",
+	"DELETED",
+	"ERROR",
+	"HINT",
+	"Icon",
+	"Index",
+	"INFO",
+	"Mod",
+	"Number",
+	"Sign",
+	"SignRight",
+	"Target",
+	"WARN"
+}
+
+for _, s  in pairs(status) do
+
+	vim.cmd(string.format("hi Buffer%s guibg=default", s))
+	if s == "Current" then
+		vim.cmd(string.format("hi Buffer%s guifg=%s", s, currentColor))
+	else
+		vim.cmd(string.format("hi Buffer%s guifg=%s", s, normalColor))
+	end
+
+	for _, p in pairs(parts) do
+		vim.cmd(string.format("hi Buffer%s%s guibg=default", s, p))
+		if s == "Current" then
+			vim.cmd(string.format("hi Buffer%s%s guifg=%s", s, p, currentColor))
+		else
+			vim.cmd(string.format("hi Buffer%s%s guifg=%s", s, p, normalColor))
+		end
+	end
+end
