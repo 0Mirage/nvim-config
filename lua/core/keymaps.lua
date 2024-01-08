@@ -27,3 +27,7 @@ keymap.set("n", "<A->>", ":BufferMoveNext<CR>")
 -- NeoTree
 keymap.set("n", "<A-n>", ":NeoTreeFocusToggle<CR>")
 keymap.set("n", "<A-f>", ":NeoTreeFloatToggle<CR>")
+
+-- ToggleTerm
+keymap.set("n", "<A-t>b", ":lua term_btop()<CR>")
+keymap.set("n", "<A-t>g", ":lua term_lazygit()<CR>")

@@ -17,3 +17,11 @@ toggleterm.setup {
 	close_on_exit = true,
 	shell = vim.o.shell,
 }
+
+local Terminal = require "toggleterm.terminal".Terminal
+
+local lazygitTerminal = Terminal:new { cmd = "lazygit", direction = "float" }
+function _G.term_lazygit() lazygitTerminal:toggle() end
+
+local btopTerminal = Terminal:new { cmd = "btop", direction = "float" }
+function _G.term_btop() btopTerminal:toggle() end
