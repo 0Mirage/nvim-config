@@ -7,7 +7,6 @@ if pcall(require, "packer") then
 	require "core.plugins.catppuccin"
 	require "core.plugins.smoothCursor"
 	require "core.plugins.neo-tree"
-	-- require "core.plugins.bufferline"
 	require "core.plugins.barbar"
 	require "core.plugins.lualine"
 	require "core.plugins.colorizer"
