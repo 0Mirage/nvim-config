@@ -9,11 +9,11 @@ local dashboard = require "alpha.themes.dashboard"
 dashboard.section.header.val = headers.nvim
 
 dashboard.section.buttons.val = {
-	dashboard.button("r", "󱫓 Recent Files", ":Telescope oldfiles<CR>"),
 	dashboard.button("f", "󰍉 Find File", ":Telescope find_files<CR>"),
+	dashboard.button("r", "󱫓 Recent Files", ":Telescope oldfiles<CR>"),
 	dashboard.button("u", "󰚰 Update Plugins", ":PackerSync<CR>"),
-	dashboard.button("h", "󰋖 Help", ":help<CR>"),
-	dashboard.button("q", "󰠚 Quit Neovim", ":qa<CR>")
+	dashboard.button("h", "󰘥 Help", ":help<CR>"),
+	dashboard.button("q", "󰿅 Quit Neovim", ":qa<CR>")
 }
 
 dashboard.section.footer.val = require "alpha.fortune"
