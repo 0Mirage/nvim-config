@@ -33,7 +33,7 @@ git clone https://github.com/valentingorr/nvim-config.git $env:LOCALAPPDATA/nvim
 ### Configuration
 
 ![Static Badge](https://img.shields.io/badge/nvim-0.9.4-none?style=for-the-badge&logo=neovim&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23B7BDF8)
-![Static Badge](https://img.shields.io/badge/packer-33%20plugins-none?logo=onlyoffice&style=for-the-badge&labelColor=%23363A4F&color=%23B7BDF8)
+![Static Badge](https://img.shields.io/badge/packer-34%20plugins-none?logo=onlyoffice&style=for-the-badge&labelColor=%23363A4F&color=%23B7BDF8)
 
 # Features
 
@@ -53,7 +53,8 @@ git clone https://github.com/valentingorr/nvim-config.git $env:LOCALAPPDATA/nvim
 [![Static Badge](https://img.shields.io/badge/-mg979%2Fvim--visual--multi-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/mg979/vim-visual-multi)  
 [![Static Badge](https://img.shields.io/badge/-tpope%2Fvim--commentary-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/tpope/vim-commentary)  
 [![Static Badge](https://img.shields.io/badge/-tpope%2Fvim--surround-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/tpope/vim-surround)  
-[![Static Badge](https://img.shields.io/badge/-nvim--treesitter%2Fnvim--treesitter-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/nvim-treesitter/nvim-treesitter)  
+[![Static Badge](https://img.shields.io/badge/-nvim--treesitter%2Fnvim--treesitter-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/nvim-treesitter/nvim-treesitter)
+[![Static Badge](https://img.shields.io/badge/-Fymyte%2Frasi.vim-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/Fymyte/rasi.vim)
 [![Static Badge](https://img.shields.io/badge/-max397574%2Fbetter--escape.nvim-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/max397574/better-escape.nvim)  
 [![Static Badge](https://img.shields.io/badge/-kevinhwang91%2Fnvim--ufo-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/kevinhwang91/nvim-ufo)  
 [![Static Badge](https://img.shields.io/badge/-nvim--treesitter--textobjects-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
