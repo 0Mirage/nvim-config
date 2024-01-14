@@ -4,6 +4,7 @@ if not status_ok then
 end
 
 neotree.setup {
+	enable_git_status = true,
 	filesystem = {
 		filtered_items = {
 			visible = false,

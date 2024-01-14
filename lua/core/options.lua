@@ -26,3 +26,15 @@ vim.g.copilot_assume_mapped = true
 --NvimTree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
+
+function _G.update_config()
+	local status = vim.fn.systemlist("git status -uno --porcelain")
+	if #status > 0 then
+		vim.fn.system("git pull origin main")
+		print("restart nvim to apply changes.")
+	else
+		print("up to date, no changes.")
+	end
+end
+
+vim.cmd([[command! Update lua update_config()]])
