@@ -72,6 +72,11 @@ git clone https://github.com/valentingorr/nvim-config.git $env:LOCALAPPDATA/nvim
 [![Static Badge](https://img.shields.io/badge/-utilyre%2Fbarbecue.nvim-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/utilyre/barbecue.nvim)  
 [![Static Badge](https://img.shields.io/badge/-nvim--lualine%2Flualine.nvim-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/nvim-lualine/lualine.nvim)  
 
+#### And More !
+
+[![Static Badge](https://img.shields.io/badge/-andweeb%2Fpresence.nvim-none?style=for-the-badge&logo=git&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23181926)](https://github.com/andweeb/presence.nvim)   
+
+
 # Contributing 
 
 If you spot anything that needs a touch-up don't be shy !  

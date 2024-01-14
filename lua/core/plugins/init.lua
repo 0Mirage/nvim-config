@@ -14,4 +14,5 @@ if pcall(require, "packer") then
 	require "core.plugins.treesitter"
 	require "core.plugins.toggleterm"
 	require "core.plugins.empty"
+	require "core.plugins.presence"
 end

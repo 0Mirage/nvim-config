@@ -124,11 +124,6 @@ return require "packer".startup(function(use)
 			"lewis6991/gitsigns.nvim"
 		}
 	}
-	-- use {
-	-- 	"akinsho/bufferline.nvim",
-	-- 	tag = "*",
-	-- 	requires = "nvim-tree/nvim-web-devicons"
-	-- }
 
 	use({
 		"utilyre/barbecue.nvim",
@@ -164,6 +159,8 @@ return require "packer".startup(function(use)
 		"kevinhwang91/nvim-ufo",
 		requires = "kevinhwang91/promise-async",
 	}
+
+	use "andweeb/presence.nvim"
 
 	if packer_bootstrap then
 		require "packer".sync()
