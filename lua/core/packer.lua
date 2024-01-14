@@ -60,6 +60,10 @@ return require "packer".startup(function(use)
 	use "williamboman/mason-lspconfig.nvim"
 	use "neovim/nvim-lspconfig"
 
+	use {
+		"Fymyte/rasi.vim",
+		ft = "rasi"
+	}
 	use "nvim-treesitter/nvim-treesitter"
 	use {
 		"nvim-treesitter/nvim-treesitter-textobjects",
