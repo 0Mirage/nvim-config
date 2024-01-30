@@ -15,6 +15,9 @@ vim.opt.termguicolors = true
 vim.o.scrolloff = 5
 vim.opt.termguicolors = true
 
+-- Set default filetypes
+vim.cmd("autocmd BufRead,BufNewFile *.zsh setfiletype bash")
+
 -- Transparency
 vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
 vim.cmd('hi SignColumn guibg=NONE ctermbg=NONE')
