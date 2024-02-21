@@ -1,5 +1,11 @@
 local keymap = vim.keymap
 
+-- Scroll up and down
+keymap.set("n", "<c-e>", "5<c-e>")
+keymap.set("n", "<c-y>", "5<c-y>")
+keymap.set("n", "<A-j>", "5j")
+keymap.set("n", "<A-k>", "5k")
+
 -- Navigate vim panes
 keymap.set("n", "<c-k>", ":wincmd k<CR>")
 keymap.set("n", "<c-j>", ":wincmd j<CR>")
@@ -32,3 +38,4 @@ keymap.set("n", "<A-f>", ":NeoTreeFloatToggle<CR>")
 keymap.set("n", "<A-t>b", ":lua term_btop()<CR>")
 keymap.set("n", "<A-t>g", ":lua term_lazygit()<CR>")
 keymap.set("n", "<A-t>l", ":lua term_lf()<CR>")
+keymap.set("n", "<A-t>s", ":lua term_bash()<CR>")
