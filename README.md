@@ -2,6 +2,8 @@
 
 This setup is tailored to enhance my coding experience with Neovim, providing a streamlined and efficient environment for various programming projects.
 
+![preview](https://i.imgur.com/4YFBo9m.png)
+
 ### Available on
 
 ![Static Badge](https://img.shields.io/badge/-linux-none?style=for-the-badge&logo=linux&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23a6da95)
