@@ -28,3 +28,6 @@ function _G.term_btop() btopTerminal:toggle() end
 
 local lfTerminal = Terminal:new { cmd = "lf", direction = "float" }
 function _G.term_lf() lfTerminal:toggle() end
+
+local sptTerminal = Terminal:new { cmd = "spt", direction = "float" }
+function _G.term_spt() sptTerminal:toggle() end
