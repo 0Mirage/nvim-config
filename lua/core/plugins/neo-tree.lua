@@ -11,6 +11,10 @@ neotree.setup {
 			show_hidden_count = false,
 			hide_dotfiles = false,
 			hide_gitignored = true,
+			always_show = {
+				"target",
+				".env"
+			},
 			hide_by_name = {
 				".git",
 				"node_modules"

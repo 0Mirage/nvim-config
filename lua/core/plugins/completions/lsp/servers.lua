@@ -1,4 +1,5 @@
 return {
+	"rust_analyzer",
 	"bashls",
 	"cssls",
 	"emmet_ls",
@@ -7,5 +8,6 @@ return {
 	"eslint",
 	"lua_ls",
 	"intelephense",
-	"biome"
+	"biome",
+	"basedpyright"
 }

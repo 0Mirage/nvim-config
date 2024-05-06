@@ -17,6 +17,7 @@ vim.opt.termguicolors = true
 
 -- Set default filetypes
 vim.cmd("autocmd BufRead,BufNewFile *.zsh setfiletype bash")
+vim.cmd("autocmd BufRead,BufNewFile *.ejs setfiletype html")
 
 -- Transparency
 vim.cmd('hi Normal guibg=NONE ctermbg=NONE')

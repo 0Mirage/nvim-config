@@ -10,5 +10,6 @@ return {
 	"scss",
 	"sql",
 	"tsx",
-	"typescript"
+	"typescript",
+	"rust"
 }

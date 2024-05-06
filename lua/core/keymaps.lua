@@ -12,6 +12,9 @@ keymap.set("n", "<c-j>", ":wincmd j<CR>")
 keymap.set("n", "<c-h>", ":wincmd h<CR>")
 keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
+-- Yank
+vim.api.nvim_set_keymap('n', '<C-c>', '"+y', { noremap = true, silent = true })
+
 -- Resize vim panes
 keymap.set("n", "<c-w>h", ":vertical resize -10<CR>")
 keymap.set("n", "<c-w>j", ":horizontal resize -10<CR>")
