@@ -1,13 +1,8 @@
-local status_ok, mason = pcall(require, "mason")
-if not status_ok then
-	return
-end
-
 local capabilities = require "cmp_nvim_lsp".default_capabilities()
 
-local servers = require "core.plugins.completions.lsp.servers"
+local servers = require "core.plugins.config.completions.lsp.servers"
 
-mason.setup()
+require "mason".setup()
 require "mason-lspconfig".setup {
 	automatic_installation = true,
 	ensure_installed = servers

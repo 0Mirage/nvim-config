@@ -1,9 +1,4 @@
-local status_ok, presence = pcall(require, "presence")
-if not status_ok then
-	return
-end
-
-presence.setup {
+require "presence".setup {
 	auto_update = true,
 	neovim_image_text = "i use Neovim btw",
 	main_image = "neovim",

@@ -5,7 +5,6 @@ return {
 	"gitignore",
 	"javascript",
 	"json",
-	"php",
 	"python",
 	"scss",
 	"sql",

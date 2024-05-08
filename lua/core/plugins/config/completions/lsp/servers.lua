@@ -7,7 +7,5 @@ return {
 	"tsserver",
 	"eslint",
 	"lua_ls",
-	"intelephense",
-	"biome",
-	"basedpyright"
+	"biome"
 }

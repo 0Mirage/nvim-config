@@ -1,9 +1,4 @@
-local status_ok, barbar = pcall(require, "barbar")
-if not status_ok then
-	return
-end
-
-barbar.setup {
+require "barbar".setup {
 	icons = {
 		separator = {left = "", right = ""},
 		separator_at_end = false,

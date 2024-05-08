@@ -1,12 +1,7 @@
-local status_ok, alpha = pcall(require, "alpha")
-if not status_ok then
-	return
-end
-
-local headers = require "core.plugins.alpha.headers"
+local headers = require "core.plugins.config.alpha.headers"
 local dashboard = require "alpha.themes.dashboard"
 
-dashboard.section.header.val = headers.nvim
+dashboard.section.header.val = headers.bloody
 
 dashboard.section.buttons.val = {
 	dashboard.button("f", "󰍉 Find File", ":Telescope find_files<CR>"),
@@ -23,4 +18,4 @@ dashboard.section.header.opts.hl = "Title"
 dashboard.section.buttons.opts.hl = "Keyword"
 dashboard.opts.opts.noautocmd = true
 
-alpha.setup(dashboard.opts)
+require "alpha".setup(dashboard.opts)

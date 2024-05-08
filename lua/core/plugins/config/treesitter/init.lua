@@ -1,15 +1,10 @@
-local status_ok = pcall(require, "nvim-treesitter.configs")
-if not status_ok then
-	return
-end
-
-local langages = require "core.plugins.treesitter.langages"
-local refactor = require "core.plugins.treesitter.refactor"
-local textobjects = require "core.plugins.treesitter.textobjects"
+local langages = require "core.plugins.config.treesitter.langages"
+local refactor = require "core.plugins.config.treesitter.refactor"
+local textobjects = require "core.plugins.config.treesitter.textobjects"
 
 require "nvim-treesitter.configs".setup {
 	ensure_installed = langages,
-	sync_install = true,
+	sync_install = false,
 	autopairs = {
 		enable = true
 	},
