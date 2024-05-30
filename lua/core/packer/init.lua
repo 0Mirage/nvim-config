@@ -71,9 +71,8 @@ return require "packer".startup(function(use)
 
 		local pluginStatus = true
 		for _, module in pairs(modules) do
-			if pcall(require, module) then
-				pluginStatus = pluginStatus and true
-			end
+			local module_status, _ = pcall(require, module)
+			pluginStatus = pluginStatus and module_status
 		end
 
 		file = "core.plugins.config."..file
