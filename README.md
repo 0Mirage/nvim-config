@@ -10,6 +10,13 @@ This setup is tailored to enhance my coding experience with Neovim, providing a 
 ![Static Badge](https://img.shields.io/badge/-mac-none?style=for-the-badge&logo=apple&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23a6da95)
 ![Static Badge](https://img.shields.io/badge/-windows-none?style=for-the-badge&logo=windows&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23a6da95)
 
+#### Install it now :
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/valentingorr/nvim-config/main/install.sh)"
+```
+
+* * *
+
 #### Unix like :
 ```bash
 # backup current config (optional)
@@ -18,6 +25,10 @@ mv ~/.config/nvim/ ~/.config/nvim.backup/
 ```bash
 # clone repository
 git clone https://github.com/valentingorr/nvim-config.git ~/.config/nvim/
+```
+```bash
+# Sync plugins
+:PackerSync
 ```
 
 #### Windows :
@@ -28,6 +39,10 @@ mv $env:LOCALAPPDATA/nvim/ $env:LOCALAPPDATA/nvim.backup/
 ```bash
 # clone repository
 git clone https://github.com/valentingorr/nvim-config.git $env:LOCALAPPDATA/nvim/
+```
+```bash
+# Sync plugins
+:PackerSync
 ```
 
 * * *

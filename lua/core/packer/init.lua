@@ -46,10 +46,6 @@ return require "packer".startup(function(use)
 		use(plugin)
 	end
 
-	if packer_bootstrap then
-		require "packer".sync()
-	end
-
 	local configs = require "core.plugins"
 
 	for i = 1, #configs do
