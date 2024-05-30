@@ -34,13 +34,8 @@ git clone https://github.com/valentingorr/nvim-config.git $env:LOCALAPPDATA/nvim
 
 ### Configuration
 
-![Static Badge](https://img.shields.io/badge/nvim-0.9.4-none?style=for-the-badge&logo=neovim&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23B7BDF8)
-![Static Badge](https://img.shields.io/badge/packer-35%20plugins-none?logo=onlyoffice&style=for-the-badge&labelColor=%23363A4F&color=%23B7BDF8)
-
-### Commands
-```bash
-:Update # Update configuration from current repo.
-```
+![Static Badge](https://img.shields.io/badge/nvim-0.9.5-none?style=for-the-badge&logo=neovim&logoColor=%23FFFFFF&labelColor=%23363A4F&color=%23B7BDF8)
+![Static Badge](https://img.shields.io/badge/packer-42%20plugins-none?logo=onlyoffice&style=for-the-badge&labelColor=%23363A4F&color=%23B7BDF8)
 
 # Features
 

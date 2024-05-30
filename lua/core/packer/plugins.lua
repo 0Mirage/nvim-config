@@ -45,14 +45,14 @@ return {
 	"gen740/SmoothCursor.nvim",
 	"lukas-reineke/indent-blankline.nvim",
 	{
-		"ggandor/leap.nvim",
-		config = function() require("leap").set_default_keymaps() end
-	},
-	{
 		"iamcco/markdown-preview.nvim",
 		run = function() vim.fn["mkdp#util#install"]() end,
 	},
-
+	"chentoast/marks.nvim",
+	{
+		"phaazon/hop.nvim",
+		branch = "v2"
+	},
 	{ "goolord/alpha-nvim", requires = "nvim-tree/nvim-web-devicons" },
 	{
 		"nvim-neo-tree/neo-tree.nvim",

@@ -1,6 +1,7 @@
 return {
+	"marks",
+	"hop",
 	"alpha",
-	"leap",
 	{
 		{
 			"nvim-autopairs",

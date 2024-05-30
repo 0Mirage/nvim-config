@@ -13,7 +13,7 @@ keymap.set("n", "<c-h>", ":wincmd h<CR>")
 keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 -- Yank
-vim.api.nvim_set_keymap('n', '<C-c>', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-c>", '"+y', { noremap = true, silent = true })
 
 -- Resize vim panes
 keymap.set("n", "<c-w>h", ":vertical resize -10<CR>")
@@ -42,3 +42,7 @@ keymap.set("n", "<A-t>b", ":lua term_btop()<CR>")
 keymap.set("n", "<A-t>g", ":lua term_lazygit()<CR>")
 keymap.set("n", "<A-t>l", ":lua term_lf()<CR>")
 keymap.set("n", "<A-t>s", ":lua term_spt()<CR>")
+
+-- Hop
+keymap.set("n", "S", ":HopChar1<cr>")
+keymap.set("n", "s", ":HopChar2<cr>")
